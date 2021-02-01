@@ -22,7 +22,7 @@
 }
 
 .rollingtext{
-    margin-top: 52vh;
+    margin-top: 54vh;
     position: absolute;
     font-family: sans-serif;
     font-size: 20px;
@@ -99,7 +99,7 @@ img{
 #imgj{
     z-index:10;
     padding-left: 95vw;
-    margin-top: 41vh;
+    margin-top: 40vh;
 
 }
 
