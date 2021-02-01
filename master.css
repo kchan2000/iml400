@@ -7,11 +7,104 @@
     z-index: -1;
 }
 
-.images {
-    width: 300px;
+#player{
+    bottom:0;
+    position: fixed;
+    left:0;
 }
 
-.rollingtext {
-    font-family: sans-serif
+
+.babyme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.rollingtext{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 20px;
+    z-index: 10;
+    border-style: solid;
+    padding: 20px;
+    color: antiquewhite;
+    
+}
+
+img{
+    position: absolute;
+}
+
+
+#imga{
+    z-index:2;
+    margin-top: 22vh;
+    padding-left: 80vw;
+}
+
+#imgb{
+    z-index:3;
+    margin-top: 37vh;
+    padding-left: 70vw;
+    
+}
+
+#imgc{
+    z-index:4;
+    margin-top: 58vh;
+    padding-left: 56vw;
+}
+
+#imgd{
+    z-index:5;
+    padding-left: 70vw;
+    margin-top: 6vh;
+}
+
+#imge{
+    z-index:6;
+    padding-left: 55vw;
+    margin-top: 23vh;
+}
+
+#imgf{
+    z-index:7;
+    padding-left: 100vw;
+    margin-top: 53vh;
+}
+
+#imgg{
+    z-index:8;
+    padding-left: 76vw;
+    margin-top: 65vh;
+    
+}
+
+#imgh{
+    z-index:9;
+    padding-left: 55vw;
+    margin-top: 70vh;
+    
+}
+
+#imgi{
+    z-index:8;
+    padding-left: 95vw;
+    margin-top: 17vh;
+    
+}
+
+#imgj{
+    z-index:10;
+    padding-left: 95vw;
+    margin-top: 40vh;
+
+}
+
+#imgk{
+    z-index:11;
+    padding-left: 97vw;
+    margin-top: 70vh;
     
 }
