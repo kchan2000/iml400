@@ -49,21 +49,21 @@
 
 #gif2{
     position: absolute;
-    z-index: 40;
+    z-index: 24;
     margin-top: 40vh;
     margin-left: 24vw;
 }
 
 #gif3{
     position: absolute;
-    z-index: 40;
+    z-index: 24;
     margin-top: 70vh;
     margin-left: 33vw;
 }
 
 #gif4{
     position: absolute;
-    z-index: 40;
+    z-index: 24;
     margin-top: 10vh;
     margin-left: 37vw;
 }
