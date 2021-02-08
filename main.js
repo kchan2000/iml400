@@ -3,6 +3,12 @@ $(document).ready(function () {
     // put javascript code here
     console.log("page has loaded!");
     
+    $(function () {
+        $("#gif2, #gif3, #gif4").draggable();
+    });
+
+
+
     $('.babyme').hover(function () {
         $('.explainer').fadeIn();
     }, function () {

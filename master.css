@@ -1,21 +1,18 @@
-#player {
+.player {
     bottom: 0;
     position: fixed;
-    left: 0;
-    z-index: 1;
-    ;
+    left: 2;
 }
+
 
 .pop-up {
     display: none;
     background-image: url(assets/overlay.png);
     position: fixed;
     height: 100%;
-    width:100%;
+    width: 100%;
     z-index: 25;
 }
-
-
 
 #myVideo {
     position: fixed;
@@ -36,7 +33,7 @@
     z-index: 25;
 }
 
-.explainer{
+.explainer {
     display: none;
     position: fixed;
     font-family: sans-serif;
@@ -48,33 +45,61 @@
     background: white;
 }
 
+
+
+#gif2{
+    position: absolute;
+    z-index: 40;
+    margin-top: 40vh;
+    margin-left: 24vw;
+}
+
+#gif3{
+    position: absolute;
+    z-index: 40;
+    margin-top: 70vh;
+    margin-left: 33vw;
+}
+
+#gif4{
+    position: absolute;
+    z-index: 40;
+    margin-top: 10vh;
+    margin-left: 37vw;
+}
+
+
+
 .button {
     background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)
 }
 
-.button {
-    position: absolute;
-    margin-left: 47vw;
+.button{
+    position: fixed;
     margin-top: 85vh;
+    margin-left: 47vw;
+    z-index: 30;
+}
+
+.button {
     padding: 15px 45px;
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-    z-index: 26;
 }
+
 
 .button:hover {
     background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
+    change the direction of the change here color: #fff;
     text-decoration: none;
     cursor: help;
 }
+
 
 #img0 {
     position: absolute;
