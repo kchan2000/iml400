@@ -1,4 +1,23 @@
-#backgroundvid {
+#player {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    ;
+}
+
+.pop-up {
+    display: none;
+    background-image: url(assets/overlay.png);
+    position: fixed;
+    height: 100%;
+    width:100%;
+    z-index: 25;
+}
+
+
+
+#myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -7,105 +26,236 @@
     z-index: -1;
 }
 
-#player{
-    bottom:0;
-    position: fixed;
-    left:0;
-}
 
 
-.babyme{
+.babyme {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 43vh;
+    z-index: 25;
 }
 
-.rollingtext{
-    margin-top: 54vh;
-    position: absolute;
+.explainer{
+    display: none;
+    position: fixed;
     font-family: sans-serif;
-    font-size: 20px;
-    z-index: 10;
-    border-style: solid;
+    font-size: 16px;
+    margin-top: 20vh;
+    margin-left: 15vw;
+    border: 3.5px solid black;
     padding: 15px;
-    color: antiquewhite;
-    
+    background: white;
 }
 
-img{
+.button {
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)
+}
+
+.button {
     position: absolute;
+    margin-left: 47vw;
+    margin-top: 85vh;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    z-index: 26;
 }
 
-
-#imga{
-    z-index:2;
-    margin-top: 22vh;
-    padding-left: 80vw;
+.button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: help;
 }
 
-#imgb{
-    z-index:3;
-    margin-top: 37vh;
-    padding-left: 70vw;
-    
-}
-
-#imgc{
-    z-index:4;
-    margin-top: 58vh;
-    padding-left: 56vw;
-}
-
-#imgd{
-    z-index:5;
-    padding-left: 70vw;
-    margin-top: 6vh;
-}
-
-#imge{
-    z-index:6;
-    padding-left: 55vw;
-    margin-top: 23vh;
-}
-
-#imgf{
-    z-index:7;
-    padding-left: 100vw;
-    margin-top: 53vh;
-}
-
-#imgg{
-    z-index:8;
-    padding-left: 76vw;
-    margin-top: 65vh;
-    
-}
-
-#imgh{
-    z-index:9;
-    padding-left: 55vw;
-    margin-top: 70vh;
-    
-}
-
-#imgi{
-    z-index:8;
-    padding-left: 95vw;
-    margin-top: 17vh;
-    
-}
-
-#imgj{
-    z-index:10;
-    padding-left: 95vw;
+#img0 {
+    position: absolute;
     margin-top: 40vh;
-
+    margin-left: 60vw;
+    z-index: 0;
+    border: 7px solid magenta;
+    box-shadow: 12px 12px 2px 1px black;
 }
 
-#imgk{
-    z-index:11;
-    padding-left: 97vw;
+#img1 {
+    position: absolute;
+    margin-top: 22vh;
+    margin-left: 65vw;
+    z-index: 1;
+    border: 5px solid red;
+}
+
+#img2 {
+    position: absolute;
+    margin-top: 7vh;
+    margin-left: 55vw;
+    border: 5px solid red;
+}
+
+#img3 {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 45vw;
+    border: 5px solid red;
+}
+
+#img4 {
+    position: absolute;
+    margin-top: 17vh;
+    margin-left: 70vw;
+    border: 5px solid blue;
+    z-index: 2;
+}
+
+#img5 {
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 66vw;
+    border: 5px solid blue;
+    z-index: 2;
+}
+
+#img6 {
+    position: absolute;
+    margin-top: 29vh;
+    margin-left: 53vw;
+    border: 5px solid blue;
+    z-index: 2;
+}
+
+#img7 {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 70vw;
+    border: 5px solid green;
+    z-index: 3;
+}
+
+#img8 {
+    position: absolute;
+    margin-top: 14vh;
+    margin-left: 56vw;
+    border: 5px solid green;
+    z-index: 3;
+}
+
+#img9 {
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 70vw;
+    border: 5px solid green;
+    z-index: 3;
+}
+
+#img10 {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 70vw;
+    border: 5px solid yellow;
+    z-index: 4;
+}
+
+#img11 {
+    position: absolute;
+    margin-top: 37vh;
+    margin-left: 47vw;
+    border: 5px solid yellow;
+    z-index: 4;
+}
+
+#img12 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 70vw;
+    border: 5px solid yellow;
+    z-index: 4;
+}
+
+#img13 {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 76vw;
+    border: 5px solid purple;
+    z-index: 5;
+}
+
+#img14 {
+    position: absolute;
     margin-top: 70vh;
-    
+    margin-left: 70vw;
+    border: 5px solid purple;
+    z-index: 5;
+}
+
+#img16 {
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 57vw;
+    border: 5px solid indigo;
+    z-index: 6;
+}
+
+#img17 {
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 53vw;
+    border: 5px solid indigo;
+    z-index: 6;
+}
+
+#img18 {
+    position: absolute;
+    margin-top: 47vh;
+    margin-left: 50vw;
+    border: 5px solid indigo;
+    z-index: 6;
+}
+
+
+#img21 {
+    position: absolute;
+    margin-top: 53vh;
+    margin-left: 50vw;
+    border: 5px solid pink;
+    z-index: 7;
+}
+
+#img22 {
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 75vw;
+    border: 5px solid pink;
+    z-index: 7;
+}
+
+#img23 {
+    position: absolute;
+    margin-top: 11vh;
+    margin-left: 72vw;
+    border: 5px solid pink;
+    z-index: 7;
+}
+
+#img24 {
+    position: absolute;
+    margin-top: 22vh;
+    margin-left: 64vw;
+    border: 5px solid brown;
+    z-index: 8;
+}
+
+#img25 {
+    position: absolute;
+    margin-top: 52vh;
+    margin-left: 72vw;
+    border: 5px solid brown;
+    z-index: 8;
 }
