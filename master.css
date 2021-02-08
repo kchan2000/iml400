@@ -49,26 +49,27 @@
 
 #gif2{
     position: absolute;
-    z-index: 24;
+    z-index: 23;
     margin-top: 40vh;
     margin-left: 24vw;
 }
 
 #gif3{
     position: absolute;
-    z-index: 24;
+    z-index: 23;
     margin-top: 70vh;
     margin-left: 33vw;
 }
 
 #gif4{
     position: absolute;
-    z-index: 24;
+    z-index: 23;
     margin-top: 10vh;
     margin-left: 37vw;
 }
 
 
+/*I took the css for the button from the internet, did not code myself*/
 
 .button {
     background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)
