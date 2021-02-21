@@ -30,7 +30,7 @@
 }
 
 .gif{
-    position: fixed;
+    position: absolute;
     z-index: 2;
     margin-left: 12vw;
     margin-top: -45vh;
