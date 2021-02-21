@@ -1,3 +1,5 @@
+/*HOMEPAGE*/
+
 .intro{
     font-family: 'Averia Libre', cursive;
     margin-left: 5vw;
@@ -36,11 +38,22 @@
     margin-top: -45vh;
 }
 
-/*
-.back{
-    position: fixed;
-    z-index: 1;
-    margin-left: 57vw;
-    margin-top: 19vh;
+.creds{
+    font-family: 'Averia Libre', cursive;
+    font-size: 12px;
+    margin-left: 75vw;
+    margin-top: 15vh;
     
-}*/
+}
+
+
+/*END OF HOMEPAGE*/
+
+/*READING RESPONSE 1 PAGE*/
+
+.reading1{
+    font-family: 'Averia Libre', cursive;
+    margin-left: 5vw;
+    margin-top: 12vh;
+    margin-right: 5vw;
+}
