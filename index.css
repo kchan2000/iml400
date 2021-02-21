@@ -1,0 +1,46 @@
+.intro{
+    font-family: 'Averia Libre', cursive;
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+
+.row{
+    margin-left: 5vw;
+    font-family: 'Averia Libre', cursive;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gif{
+    position: fixed;
+    z-index: 2;
+    margin-left: 12vw;
+    margin-top: -45vh;
+}
+
+/*
+.back{
+    position: fixed;
+    z-index: 1;
+    margin-left: 57vw;
+    margin-top: 19vh;
+    
+}*/
