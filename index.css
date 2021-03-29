@@ -41,15 +41,20 @@
 .creds{
     font-family: 'Averia Libre', cursive;
     font-size: 12px;
-    margin-left: 75vw;
+    margin-left: 6vw;
     margin-top: 13vh;
     
 }
 
+iframe{
+    width:275px;
+    height: 275px;
+} 
+
 
 /*END OF HOMEPAGE*/
 
-/*READING RESPONSE 1 PAGE*/
+/*READING RESPONSE PAGES*/
 
 .reading1{
     font-family: 'Averia Libre', cursive;
