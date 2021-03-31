@@ -1,4 +1,4 @@
-# My Cybernetic gGarden
+# My Cybernetic Garden
 
 
 ![My Cybernetic Garden Demo](https://kchan2000.github.com/IML400/iml400/assets/recording.gif)
