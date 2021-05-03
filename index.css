@@ -31,11 +31,14 @@
   clear: both;
 }
 
-.gif{
+#gif{
     position: absolute;
-    z-index: 2;
+/*    z-index: 2;*/
+    margin-left: 10%;
+/*
     margin-left: 12vw;
     margin-top: -45vh;
+*/
 }
 
 .creds{
