@@ -34,7 +34,8 @@
 #gif{
     position: absolute;
 /*    z-index: 2;*/
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-top: -12%;
 /*
     margin-left: 12vw;
     margin-top: -45vh;
